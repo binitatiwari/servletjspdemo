@@ -10,6 +10,7 @@ import java.util.Date;
 		private Date dob;
 		private String hobbies;
 		private String nationality;
+		private String mobileno;
 	
 		public String getUsername() {
 			return username;
@@ -58,6 +59,12 @@ import java.util.Date;
 		}
 		public void setNationality(String nationality) {
 			this.nationality = nationality;
+		}
+		public void setMobileNo(String mobileno){
+			return mobileno;
+		}
+		public void getMobileNo(String mobileno){
+			return mobileno;
 		}
 	
 
