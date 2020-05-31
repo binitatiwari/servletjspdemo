@@ -11,6 +11,8 @@ import java.util.Date;
 		private String hobbies;
 		private String nationality;
 		private String mobileno;
+		private String address;
+
 	
 		public String getUsername() {
 			return username;
@@ -65,6 +67,12 @@ import java.util.Date;
 		}
 		public void getMobileNo(String mobileno){
 			return mobileno;
+		}
+		public void setAddress(String address){
+			return address;
+		}
+		public void getAddress(String address){
+			return address;
 		}
 	
 
